@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0.002911">
+<testcase classname="As user I want to be able to see general schedule" name="Cucumber: Smoke test" time="0.002911">
+<system-out><![CDATA[Given user is on the sign-in page...........................................skipped
+Then user logs in as a student with "jhelkin7u@hao123.com" and "stantonmatus" password.skipped
+Then user navigates to general schedule and verifies subtitle...............skipped
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,96 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 291000,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "SuiteSetupAndTearDown.suiteSetup(Scenario)"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Cucumber: Smoke test",
+        "description": "",
+        "id": "as-user-i-want-to-be-able-to-see-general-schedule;cucumber:-smoke-test",
+        "after": [
+          {
+            "result": {
+              "duration": 4600,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "SuiteSetupAndTearDown.suiteTearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 24600,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user is on the sign-in page",
+            "match": {
+              "location": "SignInStepDefinitions.user_is_on_the_sign_in_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4300,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "user logs in as a student with \"jhelkin7u@hao123.com\" and \"stantonmatus\" password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jhelkin7u@hao123.com",
+                  "offset": 32
+                },
+                {
+                  "val": "stantonmatus",
+                  "offset": 59
+                }
+              ],
+              "location": "SignInStepDefinitions.user_logs_in_as_a_student_with_and_password(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3700,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "user navigates to general schedule and verifies subtitle",
+            "match": {
+              "location": "MapStepDefinitions.user_navigates_to_general_schedule_and_verifies_subtitle()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@BRIT-4533"
+          }
+        ]
+      }
+    ],
+    "name": "As user I want to be able to see general schedule",
+    "description": "",
+    "id": "as-user-i-want-to-be-able-to-see-general-schedule",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/Schedule.feature",
+    "tags": []
+  }
+]
